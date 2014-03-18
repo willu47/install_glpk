@@ -1,0 +1,20 @@
+Copied 
+
+libglpk.0.dylib
+libglpk.a
+libglpk.dylib
+libglpk.la
+
+to usr/local/lib
+
+copied
+
+glpsol to any folder
+
+add glpsol to path
+
+make glpsol executable (chmod +x glpsol)
+
+test using command
+
+glpsol -—data data.txt -—model model.txt output -—results.txt
