@@ -1,20 +1,14 @@
-Copied 
+# Windows users:
 
-libglpk.0.dylib
-libglpk.a
-libglpk.dylib
-libglpk.la
+After installing LEAP, the only remaining task is to add the directory to the GLPK solver to the PATH environment variable.
 
-to usr/local/lib
+This is in Control Panel | System Settings | Advanced Settings | Environment Variables | PATH
 
-copied
+Open the PATH variable, and add the installation directory which should look like this `C:/Program Files(x86)/LEAP/w64/`
 
-glpsol to any folder
+# Mac users:
 
-add glpsol to path
+After running the install package, you need to add an entry to the PATH variable which allows you to run `glpsol` (the GLPK solver) from any directory.
 
-make glpsol executable (chmod +x glpsol)
+Without doing this command, you would need to enter the entire installation directory path every time you run `glpsol`, which is rather tedious.
 
-test using command
-
-glpsol -—data data.txt -—model model.txt output -—results.txt
