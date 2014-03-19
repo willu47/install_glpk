@@ -43,7 +43,7 @@ for resource in resources:
         print 'File ' + str(resource) + ' is already present'
     else:
         # If not, copy them to the destination directory
-        shutil.copy2(res_dir + resource, dest_dir + resource)
+        shutil.copy2(res_dir + "/" + resource, dest_dir + resource)
 
 # Copy glpsol to '/usr/local/bin'
 glpsol = '/usr/local/bin/glpsol'
